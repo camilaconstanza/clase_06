@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@keyframes cambio{
+    from {color: red;}
+    to {color: coral;}
+}
+
+h1{
+    font-family: 'Anonymous Pro', monospace;
+    animation: cambio 3s infinite alternate;
+    
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    
+}
